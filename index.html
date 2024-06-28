@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isso combina?</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Isso combina?</h1>
+    <form>
+        <label for="harmonia">Escolha o tipo de harmonia que você quer combinar suas cores</label>
+        <select id="harmonia" name="harmonia">
+            <option value="">Selecione</option>
+            <option value="analogica">Análoga</option>
+            <option value="complementar">Complementar</option>
+            <option value="triade">Tríade</option>
+        </select>
+    </form>
+    <div id="cores-selecionadas">
+        <h2>Escolha uma cor:</h2>
+        <div id="paleta"></div>
+    </div>
+    <div id="resultados">
+        <h2>Cores harmoniosas:</h2>
+        <div id="cores-harmoniosas"></div>
+    </div>
 
+
+    </body>
+</html>
